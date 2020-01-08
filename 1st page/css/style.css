@@ -44,11 +44,52 @@ body {
 .fa-question-circle {
 	color: blue;
 }
-
+/*
 .btn-lg {
 	margin-left: 233px;
 	padding: 10px 10px 10px 10px;
 	margin-top: 10px;
 	border-radius: 25px;
 	width: 180px;
+	margin-bottom: 20px;
+	border:2px solid black;
+	text-align: center;
 }
+*/
+.btn-lg-back {
+	background-color: #999999;
+	margin-left: 233px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	border-radius: 25px;
+	width: 150px;
+	margin-bottom: 20px;
+	border:1px solid #999999;
+	text-align: center;
+	color: white;
+}
+
+.btn-lg-next {
+	background-color: #8fba27;
+	margin-left: 233px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	border-radius: 25px;
+	width: 150px;
+	margin-bottom: 20px;
+	border:1px solid #8fba27;
+	text-align: center;
+	color: white;
+}
+
+.btn-lg-back:hover {
+	background-color: #999999;
+	color: white;
+}
+
+.btn-lg-next:hover {
+	background-color: #8fba27;
+	color: white;
+}
+
+
