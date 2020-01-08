@@ -1,8 +1,9 @@
 .container {
 	border-radius: 25px;
   	border: 1px solid grey;
-  	padding: 2px;
+  	padding: 10px;
   	width: 200px;
+  	font-family: 'Roboto', sans-serif;
 }
 
 #dropdownMenuButton {
@@ -15,6 +16,7 @@
 .dropdown {
 	float: right;
 	margin-right: 5px;
+	margin-bottom: 50px;
 }
 
 .FYP {
@@ -29,5 +31,9 @@
 .form-row {
 	float: right;
 	display: block;
-	margin-right: 5px;
+	width: 20%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
 }
