@@ -3,5 +3,31 @@
   	border: 1px solid grey;
   	padding: 2px;
   	width: 200px;
-  	
+}
+
+#dropdownMenuButton {
+	position: relative;
+	color: black;
+	background-color: transparent;
+	border: 1px solid grey;
+}
+
+.dropdown {
+	float: right;
+	margin-right: 5px;
+}
+
+.FYP {
+	text-decoration: underline;
+	font-size: 13px;
+}
+
+.col {
+	width: 10%;
+}
+
+.form-row {
+	float: right;
+	display: block;
+	margin-right: 5px;
 }
