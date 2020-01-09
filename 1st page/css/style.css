@@ -92,4 +92,44 @@ body {
 	color: white;
 }
 
+.form-row {
+	
+	width: 30%;
+}
+
+.col-auto {
+	width: 30%
+}
+
+#dropdownMenuButton{
+	background-color: white;
+	color: grey;
+	border: 1px solid #ced4da;
+	margin-bottom: 8px;
+}
+
+.form {
+	width: 100%;
+	float: left;
+}
+
+#CompanyExamples1 {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
