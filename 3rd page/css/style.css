@@ -1,3 +1,47 @@
-h1 {
-	color: red;
+.container {
+	border-radius: 25px;
+  	border: 1px solid grey;
+  	padding: 15px;
+  	width: 200px;
+  	font-family: 'Roboto', sans-serif;
+}
+
+.btn-lg-back {
+	background-color: #999999;
+	margin-left: 200px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	border-radius: 25px;
+	width: 150px;
+	margin-bottom: 20px;
+	border:1px solid #999999;
+	text-align: center;
+	color: white;
+}
+
+.btn-lg-next {
+	background-color: #8fba27;
+	margin-left: 200px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	border-radius: 25px;
+	width: 150px;
+	margin-bottom: 20px;
+	border:1px solid #8fba27;
+	text-align: center;
+	color: white;
+}
+
+.btn-lg-back:hover {
+	background-color: #999999;
+	color: white;
+}
+
+.btn-lg-next:hover {
+	background-color: #8fba27;
+	color: white;
+}
+
+.postcode {
+	float: left;
 }

@@ -13,7 +13,7 @@
 <br>
 <div class="container">
 
-<h2>Trade Information</h2>	
+<h3>Trade Information</h3>	
 <hr>
  
 
@@ -625,8 +625,8 @@
 
 	</div>
 
-	<div class="col-12 col-lg-4 text-left">
-
+	
+<!--
 		<div class="form-check form-check-inline">
   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
   <label class="form-check-label" for="inlineRadio1">Yes</label>
@@ -635,10 +635,32 @@
   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
   <label class="form-check-label" for="inlineRadio2">No</label>
 </div>
+-->
+	
 
-	</div>
+<div class="col-12 col-lg-4 text-left">
+ 
+<script type="text/javascript">
+function CheckOptions(val){
+ var element=document.getElementById('options');
+ if(val=='do you undertake any other trades'||val=='Yes')
+   element.style.display='block',
+	element.style.display='block';
+ else  
+   element.style.display='none';
+}
+
+</script> 
+
+  <select name="options" onchange='CheckOptions(this.value);'> 
+    <option></option>  
+    <option value="red">No</option>
+    <option value="Yes">Yes</option>
+  </select>
+  <br><hr>
+<input type="text" name="options" id="options" style='display:none;'/>
 </div>
-
+</div>
 <br>
 
 
