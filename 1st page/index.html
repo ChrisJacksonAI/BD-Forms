@@ -207,15 +207,41 @@
 <hr>
 
 <p><strong>Email</strong> <small>(you will log in with this)</small></p>
-<a class="FYP" href="#">Forgot your password?</a>
+<!--<a class="FYP" href="#">Forgot your password?</a>-->
+
+<!-- Button trigger modal -->
+<a type="button" id="FYP" data-toggle="modal" data-target="#exampleModalCenter">
+  Forgot your password?
+</a>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Forgot your password?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <a href="../ResetPsw/index.html">Reset Password</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
 
 
+<!-- -->
+
+<form>
   <div class="form-row align-items-center">
     <div class="col-auto">
-      <input type="Email" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <input type="Email" class="form-control mb-2" id="inlineFormInput" required>
     </div>
     
-  </div>
+  </div></form>
 
 <br>
 <br>
@@ -224,7 +250,7 @@
 <p><strong>Email</strong> <small>enter again</small></p>
   <div class="form-row align-items-center">
     <div class="col-auto">
-      <input type="Email" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <input type="Email" class="form-control mb-2" id="inlineFormInput">
     </div>
     
   </div>
@@ -232,39 +258,39 @@
 <br>
 <br>
 <hr>
-
+<form>
 <p><strong>Password</strong> </p>
   <div class="form-row align-items-center">
     <div class="col-auto">
-      <input type="password" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <input type="password" class="form-control mb-2" id="inlineFormInput" required>
     </div>
     
-  </div>
+  </div></form>
 
 <br>
 <br>
 <hr>
-
+<form>
 <p><strong>Password</strong> <small>enter again</small></p>
   <div class="form-row align-items-center">
     <div class="col-auto">
-      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <input type="password" class="form-control mb-2" id="inlineFormInput" required>
     </div>
     
-  </div>
+  </div></form>
 
 <br>
 <br>
 <hr>
-
-<h4><strong>Contact Number</strong></h4>
+<form>
+<p class="agreement"><strong>Contact Number</strong></hp>
 
   <div class="form-row align-items-center">
     <div class="col-auto">
-      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <input type="tel" class="form-control mb-2" id="inlineFormInput" required>
     </div>
     
-  </div>
+  </div></form>
 
 <br>
 <br>

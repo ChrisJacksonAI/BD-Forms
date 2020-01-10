@@ -18,9 +18,10 @@
 	margin-right: 5px;
 }
 
-.FYP {
+#FYP {
 	text-decoration: underline;
 	font-size: 13px;
+	color: blue;
 }
 
 .col {
