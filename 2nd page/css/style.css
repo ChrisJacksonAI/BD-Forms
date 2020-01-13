@@ -63,7 +63,18 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+.fa-question-circle {
+	color: blue;
+}
 
+button.btn.btn-custom {
+	padding: 0;
+}
+
+div.col-12.col-lg-4.text-left {
+	float: left;
+	padding-right: 50px;
+}
 
 
 

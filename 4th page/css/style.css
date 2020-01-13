@@ -54,3 +54,25 @@
 .li {
 	font-size: 10px;
 }
+
+.fa-question-circle {
+	color: blue;
+}
+
+.btn btn-custom {
+	background-color: white;
+	border: 0px solid white;
+}
+
+button.btn.btn-custom1 {
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+

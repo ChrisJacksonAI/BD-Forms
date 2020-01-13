@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Home | Business Direct</title>
@@ -40,7 +40,9 @@
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>Please select the trade which most accurately describes the work undertaken by <u>you</u>: <a href="#"><i class="fa fa-question-circle"></i></a></p>
+		<p>Please select the trade which most accurately describes the work undertaken by <u>you</u>: <small><button type="button" data-toggle="tooltip" data-placement="right" class="btn btn-custom" title="The trade selected must accurately reflect all aspects of your business (e.g. a business described as a Roofing and Building Contractor must have all the trade descriptions selected appropriate for the work actually carried out, this may mean that in some circumstances Employers' Liability is not available).">
+  <i class="fa fa-question-circle"></i>
+</button></small></p>
 		<p><small>A maximum of 3 can be chosen, but here you should select your main trade.</small></p>
 	</div>
 
@@ -600,7 +602,9 @@
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>How many years experience do <u>you</u> have in this trade? <a href="#"><i class="fa fa-question-circle"></i></a></p>
+		<p>How many years experience do <u>you</u> have in this trade? <small><button type="button" data-toggle="tooltip" data-placement="right" class="btn btn-custom" title="Where we refer to years’ experience, this can apply to experience gained either as a business proprietor or as an employee in the trade selected.">
+  <i class="fa fa-question-circle"></i>
+</button></small></p></p>
 
 	</div>
 
@@ -618,6 +622,8 @@
 <br>
 <hr>
 
+<!--  Bottom section starts here - testing out additional box options -->
+
 <div class="row">
 	<div class="col-12 col-lg-8">
 
@@ -625,18 +631,6 @@
 
 	</div>
 
-	
-<!--
-		<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-  <label class="form-check-label" for="inlineRadio1">Yes</label>
-</div>
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-  <label class="form-check-label" for="inlineRadio2">No</label>
-</div>
--->
-	
 
 <div class="col-12 col-lg-4 text-left">
  
@@ -644,10 +638,9 @@
 function CheckOptions(val){
  var element=document.getElementById('options');
  if(val=='do you undertake any other trades'||val=='Yes')
-   element.style.display='block',
-	element.style.display='block';
- else  
-   element.style.display='none';
+   element.style.display='block';
+ else 
+    element.style.display='none';
 }
 
 </script> 
@@ -657,14 +650,21 @@ function CheckOptions(val){
     <option value="red">No</option>
     <option value="Yes">Yes</option>
   </select>
-  <br><hr>
+  <br>
 <input type="text" name="options" id="options" style='display:none;'/>
+
+<!-- -->
+
+<!-- -->
+
 </div>
 </div>
 <br>
 
 
 </div>
+
+<!-- ends here -->
 
 <div class="row">
 	<div class="col-12 col-lg-8">
@@ -682,8 +682,24 @@ function CheckOptions(val){
 </div>
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--
+		<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Yes</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">No</label>
+</div>
+-->
+	
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript">$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
+
 </body>
 </html>

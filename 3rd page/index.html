@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Home | Business Direct</title>
@@ -99,6 +99,9 @@
     	<p class="postcode" >Postcode</p>
     </small>
       <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <a type="button" class="btn-custom" href="#"><small>GET ADDRESS</small></a> 
+      <p class="or">or</p>
+      <a class="or" href="#"><small>Enter address manually</small></a>
     </div>
   </div>
 </div>
@@ -121,7 +124,10 @@
     	<small>
     	<p class="postcode" >Postcode</p>
     </small>
-      <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="">
+    <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="">
+      <a type="button" class="btn-custom" href="#"><small>GET ADDRESS</small></a> 
+      <p class="or">or</p>
+      <a class="or" href="#"><small>Enter address manually</small></a>
     </div>
   </div>
 </div>
@@ -157,8 +163,10 @@
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>How many <u>employees</u> (including labour only subcontractors) are engaged in the <u>business</u>? <small><a href="#"><i class="fa fa-question-circle"></i></a></small></p>
-
+		<p>How many <u>employees</u> (including labour only subcontractors) are engaged in the <u>business</u>? <small><button type="button" data-toggle="tooltip" data-placement="right" class="btn btn-custom1" title="Please include any: • person under a contract of service or apprenticeship with you • prospective employee who is being assessed as to their suitability for employment • labour master (or labour only subcontractor) or person supplied by them • self-employed person used for labour only • person hired or borrowed by the proposer from another employer including agency workers  • volunteer or voluntary worker • trainee or person undertaking work for you under a work experience placement whilst engaged by you in the course of the business and under your direct control or supervision. Selecting this cover will automatically provide cover in respect of temporary employees provided that the number of days worked by all temporary employees as a combined total does not exceed 50 during the period of insurance.">
+  <i class="fa fa-question-circle"></i>
+</button></small></p>
+ 
 	</div>
 
 	<div class="col-12 col-lg-4 text-left text-lg-right">
@@ -182,7 +190,7 @@
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>How many proprietors and <u>partners</u> are engaged in the <u>business</u> who solely undertake clerical work i.e. bookkeeping, design, consultancy, clerical/sales administration or secretarial work and no other? <small><a href="#"><i class="fa fa-question-circle"></i></a></small></p>
+		<p>How many proprietors and <u>partners</u> are engaged in the <u>business</u> who solely undertake clerical work i.e. bookkeeping, design, consultancy, clerical/sales administration or secretarial work and no other? </p>
 
 	</div>
 
@@ -223,7 +231,9 @@
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>Do you require cover for temporary <u>employees?</u> (Important note – should the number of days worked by all temporary <u>employees</u> as a combined total exceed 50 during the <u>period of insurance</u>, they must be added to the number of workers shown on the <u>schedule</u>)</p>
+		<p>Do you require cover for temporary <u>employees?</u> (Important note – should the number of days worked by all temporary <u>employees</u> as a combined total exceed 50 during the <u>period of insurance</u>, they must be added to the number of workers shown on the <u>schedule</u>) <small><button type="button" data-toggle="tooltip" data-placement="right" class="btn btn-custom1" title="For the purposes of this cover: a 'Temporary’ employee means any person engaged by you on a non-permanent basis where the intention is to engage them for a limited period of time only during the period of insurance  b ‘Day’ means any date on which a person undertakes work for you regardless of the number of hours worked by them on that date..">
+  <i class="fa fa-question-circle"></i>
+</button></small></p>
 	</div>
 
 		<div class="col-12 col-lg-4 text-left">
@@ -242,10 +252,13 @@
 <br>
 <hr>
 
+
 <div class="row">
 	<div class="col-12 col-lg-8">
 
-		<p>Do <u>you</u> use bona-fide sub-contractors? <small><a href="#"><i class="fa fa-question-circle"></i></a></small></p>
+		<p>Do <u>you</u> use bona-fide sub-contractors? <small><button type="button" data-toggle="tooltip" data-placement="right" class="btn btn-custom1" title="Bona-fide subcontractors are persons who work without any direct control or supervision from you, have their own liability insurances in force and usually provide the materials and equipment required to complete the work.  Provided they are not working under your direct control or supervision, there is no need to include them in the employee count.">
+  <i class="fa fa-question-circle"></i>
+</button></small></p>
 	</div>
 
 		<div class="col-12 col-lg-4 text-left">
@@ -279,8 +292,13 @@
 	</div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript">$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})</script>
+
 </body>
 </html>

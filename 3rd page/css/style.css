@@ -45,3 +45,45 @@
 .postcode {
 	float: left;
 }
+
+.btn-custom {
+	color: white;
+	background-color: #8fba27;
+	padding: 0 8px 0 8px;
+	border-radius: 5px; 
+	float: left;
+}
+
+.btn-custom:hover {
+	text-decoration:none;
+	color: white;
+	background-color: #568716;
+	transition: all .4s;
+}
+
+.or {
+	float: left;
+	margin-left:10px;
+}
+
+.or:hover {
+	color: #8fba27;
+	transition: all .4s;
+}
+
+.fa-question-circle {
+	color: blue;
+}
+
+.btn btn-custom1 {
+	background-color: white;
+	border: 0px solid white;
+}
+
+button.btn.btn-custom1 {
+	padding: 0;
+}
+
+
+
+
